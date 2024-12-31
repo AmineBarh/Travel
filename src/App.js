@@ -4,7 +4,7 @@ import Home from "./pages/Home";
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import Sell from "./pages/Sell";
 import Taketrip from "./pages/Taketrip";
-
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 function App() {
   return (
@@ -14,6 +14,7 @@ function App() {
         <Route exact path="/take-trip" element={<Taketrip />} />
         <Route exact path="/fill-info" element={<Sell />} />
       </Routes>
+      <SpeedInsights />
     </Router>
   );
 }
