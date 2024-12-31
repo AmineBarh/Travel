@@ -171,9 +171,7 @@ const Guestinfo = () => {
             </p>
           </div>
           <div className="space-y-4 mt-4">
-            <p className="text-3xl font-bold text-gray-700">
-              Total Payment
-            </p>
+            <p className="text-3xl font-bold text-gray-700">Total Payment</p>
             <p className="text-2xl font-semibold text-gray-700">
               ${totalPrice.toFixed(3)} TND
             </p>
@@ -207,6 +205,13 @@ const Guestinfo = () => {
               />
             </div>
           </div>
+          <button
+            type="submit"
+            className="bg-blue-500 text-white px-4 py-2 rounded-lg mt-4 hover:bg-blue-600 w-full font-semibold"
+          >
+            {" "}
+            Pay Now
+          </button>
         </div>
 
         <div className="col-span-3 row-span-2 row-start-6 bg-white rounded-2xl p-8 mx-8 pb-20">
