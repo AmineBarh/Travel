@@ -10,15 +10,17 @@ import { MdKeyboardTab } from "react-icons/md";
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
 
 const Contact = () => {
-  const location = useLocation(); 
-  const isTakeTrip = location.pathname === "/take-trip"; 
+  const location = useLocation();
+  const isTakeTrip = location.pathname === "/take-trip";
 
   return (
     <div>
       {!isTakeTrip && (
         <div>
           <div className="des flex flex-col items-center justify-center px-96 ">
-            <p className="text-2xl font-semibold font-inter pt-12">Testimonials</p>
+            <p className="text-2xl font-semibold font-inter pt-12">
+              Testimonials
+            </p>
             <p className="text-4xl font-bold font-playfairdisplay text-[#0E3D4D] mb-20 ">
               Don't take our word for it
             </p>
@@ -38,7 +40,7 @@ const Contact = () => {
                 <div className="trips flex flex-col items-center justify-center mt-28">
                   <p className="font-gothic text-azra9 text-center">
                     "1 I had the most incredible vacation experience thanks to
-                    the amazing team at XYZ Travel Agency! From the moment I
+                    the amazing team at LOVEEE Travel Agency! From the moment I
                     contacted them, their friendly and knowledgeable staff
                     helped me plan the perfect itinerary. They took care of
                     every detail, from booking flights and accommodations to
@@ -60,7 +62,7 @@ const Contact = () => {
                 <div className="trips flex flex-col items-center justify-center mt-28">
                   <p className="font-gothic text-azra9 text-center">
                     "2 I had the most incredible vacation experience thanks to
-                    the amazing team at XYZ Travel Agency! From the moment I
+                    the amazing team at LOVEEE Travel Agency! From the moment I
                     contacted them, their friendly and knowledgeable staff
                     helped me plan the perfect itinerary. They took care of
                     every detail, from booking flights and accommodations to

@@ -186,7 +186,7 @@ const Guestinfo = () => {
             </p>
             <div className="flex space-x-4">
               <input
-                type="text"
+                type="number"
                 placeholder="Card Number"
                 className="border border-solid border-gray-300 px-2 py-1 rounded-lg w-full"
               />
@@ -194,12 +194,12 @@ const Guestinfo = () => {
 
             <div className="flex space-x-4">
               <input
-                type="text"
+                type="number"
                 placeholder="Expiry Date"
                 className="border border-solid border-gray-300 px-2 py-1 rounded-lg w-1/2"
               />
               <input
-                type="text"
+                type="number"
                 placeholder="CVV"
                 className="border border-solid border-gray-300 px-2 py-1 rounded-lg w-1/2"
               />
